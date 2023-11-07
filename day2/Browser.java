@@ -1,15 +1,20 @@
-package week1.day2;
+package week3.day2;
 
 public class Browser {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Chrome chrome1 = new Chrome();
-		chrome1.getName();
-		chrome1.printName();
-		
+	String browserName;
+	String browserVersion;
+	
+	void openURL() {
+		System.out.println("Browser OprnURL");
 		
 	}
-
+	void closeBrowser() {
+		System.out.println("Browser Close");
+		
+	}
+	void navigateBack() {
+		System.out.println("Browser Navigate Back");
+		
+	}
 }
