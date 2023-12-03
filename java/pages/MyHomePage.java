@@ -11,9 +11,9 @@ public class MyHomePage extends ProjectSpecificMethod{
 		this.driver = driver;
 	}
 
-	public MyLeadsPage clickLeadsTab() {
+	public CreateLeadPage clickLeadsTab() {
 		driver.findElement(By.linkText("Leads")).click();
-		 return new MyLeadsPage(driver);
+		 return new CreateLeadPage(driver);
 	}
 
 }
